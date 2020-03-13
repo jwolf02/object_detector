@@ -1,0 +1,18 @@
+<package format="2">
+  <name>object_detector</name>
+  <version>1.0.0</version>
+  <description>
+  This package builds an object detector node.
+  </description>
+  <maintainer email="jonaswolf@startmail.com">Jonas Wolf</maintainer>
+  <license>MIT</license>
+
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>message_generation</depend>
+
+  <exec_depend>message_runtime</exec_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
